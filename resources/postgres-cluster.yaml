@@ -1,0 +1,11 @@
+apiVersion: sql.tanzu.vmware.com/v1
+kind: Postgres
+metadata:
+  name: pgdemo
+spec:
+  storageClassName: generic
+  monitorStorageClassName: generic
+  highAvailability:
+    enabled: false
+  seccompProfile:
+    type: Unconfined
