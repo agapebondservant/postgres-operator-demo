@@ -1,0 +1,5 @@
+/.env
+/kubeconfig-eks.cdd-gloudgate.us-east-2.tola.yml
+/kubeconfig_shepherd
+/cli/
+/postgres-cli.tar
