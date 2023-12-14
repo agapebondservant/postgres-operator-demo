@@ -9,3 +9,4 @@ spec:
     enabled: false
   seccompProfile:
     type: Unconfined
+  serviceType: LoadBalancer
